@@ -120,12 +120,12 @@ body {
 
 .sorter > .text {
   width: 120px;
-  height: 60px;
+  height: 130px;
   display: none;
 }
 
 .sorter > .text > p {
-  margin: 0.5em 5px 0px;
+  margin: 0.5em 5px;
   width: calc(100%-10px);
   text-align: center;
   font-size: 0.8em;
@@ -208,17 +208,17 @@ label:hover {
 }
 
 .result {
-  height: 15px;
+  height: auto;
   margin-bottom: -1px;
   display: grid;
-  width: 211px;
+  width: 351px;
   grid-template-columns: repeat(2, 1fr);
   border: 1px solid #000;
   margin-right: 5px;
 }
 
 .result.image {
-  height: 175px;
+  height: auto;
 }
 
 .result.image img {
@@ -237,6 +237,7 @@ label:hover {
 
 .result > .left {
   width: 35px;
+  margin: auto;
   padding: 1px 3px 1px 0.5em;
   grid-column: 1 / 2;
   text-align: right;
@@ -254,7 +255,7 @@ label:hover {
 }
 
 .result > .right {
-  width: 160px;
+  width: 300px;
   padding: 1px 0em 1px 0em;
   grid-column: 2 / 3;
   border-left: 1px solid #000;

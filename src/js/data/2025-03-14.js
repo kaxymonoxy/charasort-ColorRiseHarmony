@@ -64,7 +64,7 @@ dataSet[dataSetVersion].options = [
   {
     name: "Exclude Duplicate Songs",
     key: "dupe",
-    tooltip: "Check this to only include one performance for songs that are performed more than once in the fes (Capture The Moment, Color Rise Harmony, III)"
+    tooltip: "WARNING: DOES NOT WORK CORRECTLY WHEN FILTERING BY STAGES. Check this to only include one performance for songs that are performed more than once in the fes (Capture The Moment, Color Rise Harmony, III)."
   }
 ];
 
